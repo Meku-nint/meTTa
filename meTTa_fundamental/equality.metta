@@ -4,7 +4,7 @@
 (= x 2)
 !(x) ;this will output  [x]
 !(= x 2) ;this will output  [= x 2]
-!(= (+ 1 2) 3) ;this will output  [= 3 3]
+!(= (+  2) 3) ;this will output  [= 3 3]
 ;nullary function simply returns its body.
 (=(h)(Hello World))
 !(h) ;this will output  [Hello World]
